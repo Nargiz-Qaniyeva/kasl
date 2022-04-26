@@ -238,9 +238,9 @@ color:#1abc9c;
         grid-row-gap: 10px;
         
       }
-    #ending .grid-item {
-        padding: 20px;
-        font-size: 30px;
+    #ending .grid {
+        padding: 10px;
+        font-size: 15px;
         text-align: center;
       }
    #ending .text-down button {
@@ -255,17 +255,62 @@ color:#1abc9c;
    .text-down .icon{
        font-size: x-large;
    }
-   footer .container{
-       display: flex;
-       justify-content: center;
-   }
+.col-1{
+width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 24.66;
+}
+.col-4{
+    width: 32.99%;
+}
+.col-5{
+    width: 41.32%;
+}
+.col-6{
+    width: 50% ;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66% ; 
+}
+.col-9{
+     width:74.99% ;
+}
+.col-10{
+     width:83.32% ;
+}
+.col-11{
+     width:91.65% ;
+}
+.col-12{
+     width: 100% ;
+}
  footer .container{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin: 5%;
     background-color: #2c3e50;
+    background-size: 100% ;
     padding-bottom: 110px;
-    
+    color: azure    ;  
    }
-   .final-wrapper{
+   footer .final{
+       background-color: #1a252f;
+       margin: 5%;
+       margin-top: 5%;
+       display: flex;
+       justify-content: center;
+       font-size: x-large;
+       color: #fff;
+       padding: 20px;
+   }
+   footer .final-wrapper .grid .grid-item p a{
+       color: #1abc9c;
+       text-decoration:none  ;
    }
